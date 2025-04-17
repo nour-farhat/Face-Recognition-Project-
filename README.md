@@ -18,7 +18,9 @@ To be able to run our program, make sure you have the following elements install
   - Python 3.8+
   - A functioning webcam
   - Basic hardware (standard laptop)
-  - Libraries - In order to run our program, we make use of the following libraries: 
+
+Libraries - In order to run our program, we make use of the following libraries: 
+
   - deepface
   - opencv-python
   - pandas
