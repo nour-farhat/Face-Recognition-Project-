@@ -60,13 +60,30 @@ Once launched, the application interface provides the following functionalities:
 - In the augmented version, each image undergoes lighting and blur transformations
  
 
-3) Customized categories and allocation amounts: Users will be prompted to input their chosen personalized category and the desired monetary allocation for that category. Upon completion of category creation, users can signify completion by entering "done."
+2) Start of attendance monitoring:
+
+- Starts real-time webcam feed
+  
+- Detects and verifies students as they appear
+
+- Automatically marks students present, late, or absent based on entry time
 
 
-4) Visualization of user's budget: After completing the previous steps, users will encounter a pie chart illustrating the distribution of their allocated funds among various categories. Additionally, an automated savings category will be generated, displaying the amount saved if the total budget was not fully allocated.
+3) Exporting Attendance into CSV:
+
+- Attendance data is displayed in a table on your Python IDE
+  
+- Option to export as CSV file
 
 
-5) Expense tracking and history: Finally, users will be prompted to input their expenses within the designated category they created, and they will receive an overview of their expense history. Users will need to input the name of a category they have created and the corresponding expense amount.
+5) Additional Features:
+   
+- Continuous access verification (entrance simulation)
+  
+- Load public datasets 
+  
+- Clear user database
+
 
 This video will give you a quick tutorial on how to use the application:
 ....(show demo to remind prof of how it works)
@@ -83,7 +100,7 @@ The authors for this project are:
 
 # SOME EXTRA INFORMATION ABOUT THE CODE
 
-This project was created as part of a Deep Learning course final project in April 2025.
-It explores practical applications of AI in education and proposes a scalable, real-world solution for a recurring institutional problem.
+This project was created as part of our AI-machine learning and analytics course final project in April 2025.
+It explores practical applications of deep learning, specifically face detection and recognition in education and proposes a scalable, real-world solution for a recurring institutional problem.
 
 
