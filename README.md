@@ -15,10 +15,18 @@ The application includes a user-friendly Tkinter GUI for real-time monitoring, s
 
 To be able to run our program, make sure you have the following elements installed:
 
-  - Python programming language or online IDE environment such as Google Colab - It will work in all versions between 3.6 and 3.8. 
-  - Libraries - In order to run our program, we make use of the following library: matplotlib.pyplot as plt  
+  - Python 3.8+
+  - A functioning webcam
+  - Basic hardware (standard laptop)
+  - Libraries - In order to run our program, we make use of the following libraries: 
+  - deepface
+  - opencv-python
+  - pandas
+  - numpy
+  - scikit-learn
+  - tkinter (usually included with Python)
         To download the library type the following command:   
-    ```pip install matplotlib ``` 
+    ```pip install deepface opencv-python pandas numpy scikit-learn ``` 
 
 # Installation:
   
