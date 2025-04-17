@@ -41,6 +41,7 @@ Step 2. Download and unzip the ZIP
 Step 3. Import the ZIP file in your Python IDE environment
 
 Step 4. Run the script:
+
               -  ```code_with_attendance.py ``` (standard model)
               
               -  ```with_augmentation.py ``` (with image augmentation)
