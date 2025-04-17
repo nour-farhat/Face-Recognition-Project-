@@ -42,44 +42,47 @@ Step 3. Import the ZIP file in your Python IDE environment
 
 Step 4. Run the script:
               -  ```code_with_attendance.py ``` (standard model)
+              
               -  ```with_augmentation.py ``` (with image augmentation)
 
 
 # Usage:
 
-After a user enters our platform:
+Once launched, the application interface provides the following functionalities:
 
-1) They will be welcomed and asked for their monthly budget (users will not be able to enter a number lower or equal to 0).
+1) Register user(s):
+
+- Prompted to enter name
+  
+- Takes 3 webcam snapshots (front, left, right)
+  
+- In the augmented version, each image undergoes lighting and blur transformations
  
 
-2) Customized categories and allocation amounts: Users will be prompted to input their chosen personalized category and the desired monetary allocation for that category. Upon completion of category creation, users can signify completion by entering "done."
+3) Customized categories and allocation amounts: Users will be prompted to input their chosen personalized category and the desired monetary allocation for that category. Upon completion of category creation, users can signify completion by entering "done."
 
 
-3) Visualization of user's budget: After completing the previous steps, users will encounter a pie chart illustrating the distribution of their allocated funds among various categories. Additionally, an automated savings category will be generated, displaying the amount saved if the total budget was not fully allocated.
+4) Visualization of user's budget: After completing the previous steps, users will encounter a pie chart illustrating the distribution of their allocated funds among various categories. Additionally, an automated savings category will be generated, displaying the amount saved if the total budget was not fully allocated.
 
 
-4) Expense tracking and history: Finally, users will be prompted to input their expenses within the designated category they created, and they will receive an overview of their expense history. Users will need to input the name of a category they have created and the corresponding expense amount.
+5) Expense tracking and history: Finally, users will be prompted to input their expenses within the designated category they created, and they will receive an overview of their expense history. Users will need to input the name of a category they have created and the corresponding expense amount.
 
 This video will give you a quick tutorial on how to use the application:
-https://drive.google.com/file/d/1noesa8NmtBWf-e-t1dqDPuW9gzX6gd8e/view?usp=drive_link
+....(show demo to remind prof of how it works)
 
 # Credits:
 
 The authors for this project are:   
 
 - Clementine Mathieu 
-- Daniel Teixidor
-- Jimena Navarro
+- Andrea Saxod
+- Hugo Marsiglia
 - Rakan Hourani 
 - Nour Farhat
 
 # SOME EXTRA INFORMATION ABOUT THE CODE
 
-In order to carry out our objective, we have used the following data structures and algorithms:
-
-  1. Hash Tables - Used to store all details regarding the opportunities
-  2.  Dictionaries -Used to store budget information, where keys represent expense categories, and values represent the budget allocated to each category
-  3. Lists
-  4. Quicksort Algorithm 
+This project was created as part of a Deep Learning course final project in April 2025.
+It explores practical applications of AI in education and proposes a scalable, real-world solution for a recurring institutional problem.
 
 
