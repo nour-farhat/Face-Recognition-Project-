@@ -77,10 +77,6 @@ Once launched, the application interface provides the following functionalities:
   
 - Clear user database
 
-
-This video will give you a quick tutorial on how to use the application:
-....(show demo to remind prof of how it works)
-
 # Credits:
 
 The authors for this project are:   
