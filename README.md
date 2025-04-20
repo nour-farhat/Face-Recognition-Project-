@@ -19,7 +19,7 @@ To be able to run our program, make sure you have the following elements install
   - A functioning webcam
   - Basic hardware (standard laptop)
 
-Libraries - In order to run our program, we make use of the following libraries: 
+Libraries - In order to run our program we will use the following libraries, we explain how to install them in the **Installation** section:
 
   - deepface
   - opencv-python
@@ -27,25 +27,18 @@ Libraries - In order to run our program, we make use of the following libraries:
   - numpy
   - scikit-learn
   - tkinter (usually included with Python)
-        To download the library type the following command:   
-    ```pip install deepface opencv-python pandas numpy scikit-learn ``` 
 
 # Installation:
-  
-Now that the required library is set up, Follow these final steps to download the zip file from the repository:
- 
-Step 1. Open the .... file
+   
+Step 1. Download the ZIP file, and Extract the ZIP  (https://github.com/nour-farhat/Face-Recognition-Project-/blob/092207b5193cf4ed73f39d781250da6ec3e32e6c/FaceRecognition.zip)
 
-Step 2. Download and unzip the ZIP
+Step 2. Open the terminal
 
-Step 3. Import the ZIP file in your Python IDE environment
+Step 3. Set the directory according to file location: cd path/to/FaceRecognition
 
-Step 4. Run the script:
+Step 4. Install required libraries with: pip install -r requirements.txt
 
-              -  ```code_with_attendance.py ``` (standard model)
-              
-              -  ```with_augmentation.py ``` (with image augmentation)
-
+Step 5. Start the GUI App with: python main.py
 
 # Usage:
 
