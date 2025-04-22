@@ -4,10 +4,7 @@ Facial recognition–based attendance tracking system for educational environmen
 
 # Project Description:
 
-Our smart attendance system is designed to offer real-time face recognition and attendance verification. By collecting facial data through a live webcam feed, our system is able to identify students and verify their presence without any manual input. Thanks to the main deep learning components found at the core of our solution, the FaceNet512 pretrained model and the backend detector, RetinaFace, our system is built for robust face detection and reliable attendance verification. We implemented two versions of our prototype:
-
-  1. A standard model.
-  2. An augmented model that uses image augmentation techniques to improve recognition in varied lighting and pose conditions.
+Our smart attendance system is designed to offer real-time face recognition and attendance verification. By collecting facial data through a live webcam feed, our system is able to identify students and verify their presence without any manual input. Thanks to the main deep learning components found at the core of our solution, the FaceNet512 pretrained model and the backend detector, RetinaFace, our system is built for robust face detection and reliable attendance verification.
      
 The application includes a user-friendly Tkinter GUI for real-time monitoring, student registration, and attendance export. This project was developed in Python, with a focus on accessibility, affordability, and scalability for small to mid-sized educational institutions.
 
